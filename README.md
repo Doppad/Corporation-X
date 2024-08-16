@@ -1,8 +1,8 @@
-#English
-Corporation
+# English
+## Corporation
 This is a microservices architecture project that I worked on. The features implemented are detailed below.
 
-Features:
+## Features:
 Created a listener in the notification service for Kafka topics that responds to all order placements and payment transactions: https://github.com/Doppad/Corporation/blob/main/services/notification/src/main/java/com/doppad/ecommerce/kafka/NotificationConsumer.java
 
 Developed an order placement system in the corresponding service. Created the order, configured the OrderService with checks for customer and product existence, and set up a publisher for the Kafka topic: https://github.com/Doppad/Corporation/blob/main/services/order/src/main/java/com/doppadecommerce/order/OrderService.java Publisher: https://github.com/Doppad/Corporation/blob/main/services/order/src/main/java/com/doppadecommerce/kafka/OrderProducer.java
@@ -16,11 +16,11 @@ In the customer service, I developed a system for updating user information. The
 Developed and configured a Config Server for centralized management of configuration data across all microservices, simplifying their setup and management: https://github.com/Doppad/Corporation/tree/main/services/config-server/src/main/resources/configurations
 
 
-#Russian
-Corporation
+# Russian
+## Corporation
 Это проект на микросервисной архитектуре над которым я работал. Реализованные фичи будут указаны ниже.
 
-Фичи
+## Фичи:
 Создал слушателя в сервисе нотификаций для топиков в Kafka, который будет реагировать на все размещения заказов и совершения оплаты: https://github.com/Doppad/Corporation/blob/main/services/notification/src/main/java/com/doppad/ecommerce/kafka/NotificationConsumer.java
 
 Разработал систему размещения заказов в соответствующем сервисе. Создал заказ, настроил OrderService с проверкой существования покупателя и товара, а также публикатор для топика в Kafka: https://github.com/Doppad/Corporation/blob/main/services/order/src/main/java/com/doppadecommerce/order/OrderService.java Публикатор: https://github.com/Doppad/Corporation/blob/main/services/order/src/main/java/com/doppadecommerce/kafka/OrderProducer.java
