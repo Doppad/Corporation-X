@@ -7,7 +7,7 @@ Created a listener in the notification service for Kafka topics that responds to
 
 Developed an order placement system in the corresponding service. Created the order, configured the OrderService with checks for customer and product existence, and set up a publisher for the Kafka topic: https://github.com/Doppad/Corporation/blob/main/services/order/src/main/java/com/doppadecommerce/order/OrderService.java Publisher: https://github.com/Doppad/Corporation/blob/main/services/order/src/main/java/com/doppadecommerce/kafka/OrderProducer.java
 
-Configured the API Gateway to provide a unified entry point and secure the microservices architecture. Additionally, set up Keyclaok for enhanced security: https://github.com/Doppad/Corporation/blob/main/services/gateway/src/main/java/com/doppad/gateway/security/SecurityConfig.java
+Configured the API Gateway to provide a unified entry point and secure the microservices' architecture. Additionally, set up Keycloak for enhanced security: https://github.com/Doppad/Corporation/blob/main/services/gateway/src/main/java/com/doppad/gateway/security/SecurityConfig.java
 
 Wrote a monitoring system for inventory levels in the relevant service. The system tracks the quantity of products in the database and updates the stock levels after a purchase: https://github.com/Doppad/Corporation/blob/main/services/product/src/main/java/com/doppad/ecommerce/product/ProductService.java
 
@@ -25,7 +25,7 @@ Developed and configured a Config Server for centralized management of configura
 
 Разработал систему размещения заказов в соответствующем сервисе. Создал заказ, настроил OrderService с проверкой существования покупателя и товара, а также публикатор для топика в Kafka: https://github.com/Doppad/Corporation/blob/main/services/order/src/main/java/com/doppadecommerce/order/OrderService.java Публикатор: https://github.com/Doppad/Corporation/blob/main/services/order/src/main/java/com/doppadecommerce/kafka/OrderProducer.java
 
-Настроил API Gateway для обеспечения единой точки входа и защиты микросервисной архитектуры. Также для защиты настроил Keyclaok: https://github.com/Doppad/Corporation/blob/main/services/gateway/src/main/java/com/doppad/gateway/security/SecurityConfig.java 
+Настроил API Gateway для обеспечения единой точки входа и защиты микросервисной архитектуры. Также для защиты настроил Keycloak: https://github.com/Doppad/Corporation/blob/main/services/gateway/src/main/java/com/doppad/gateway/security/SecurityConfig.java 
 
 Написал систему мониторинга количества товаров в характерном сервисе. Система следит за количеством товаров в базе данных и меняет их количество после покупки: https://github.com/Doppad/Corporation/blob/main/services/product/src/main/java/com/doppad/ecommerce/product/ProductService.java
 
